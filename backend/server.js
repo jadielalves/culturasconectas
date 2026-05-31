@@ -1,9 +1,11 @@
 const express = require("express");
 const conexao = require("./database/conexao");
 const bcrypt = require("bcrypt");
+const cors = require("cors");
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
