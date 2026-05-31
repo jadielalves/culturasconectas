@@ -1,0 +1,25 @@
+{
+  "name": "culturasconectas",
+  "version": "1.0.0",
+  "description": "Projeto: uma plataforma que ajuda pessoas a descobrirem filmes, séries, livros e jogos com base em seu interesse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadielalves/culturasconectas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadielalves/culturasconectas/issues"
+  },
+  "homepage": "https://github.com/jadielalves/culturasconectas#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.4"
+  }
+}
