@@ -9,28 +9,21 @@
 }
 
 body{
-   margin: 0px;
-   min-height: 100vh;
-   padding: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   box-sizing: border-box;
+     padding: 10px 0px 0px 0px;
 }
 
 main{
-    margin: auto;
+    margin: 30px;
 }
 
 
 form{
-    padding: 30px;
-    margin: 0;
+    padding: 20px 0px 10px 0px;
+    margin: auto;
     background-color: #0C1117;
     border-radius: 10px;
-    width: 100%;
-    max-width: 450px;
-    min-height: auto;
+    min-width: 320px;
+    max-width: 500px;
     color: var(--corprincipal);
     display: flex;
     flex-direction: column;
