@@ -18,27 +18,35 @@
 body{
      margin: 10px;
      padding: 10px 0px 0px 0px;
+     background-image: url('background.jpeg');
 }
 
 main{
     margin: 10px;
+    
 }
 
 
 form{
-    padding: 20px 0px 10px 0px;
-    margin: auto;
     background-color: #0C1117;
+
+    padding: 20px 0px 10px 0px;
+    margin: auto;  
     border-radius: 10px;
     min-width: 320px;
     max-width: 500px;
+
     color: var(--corprincipal);
+
     display: flex;
     flex-direction: column;
     text-align: justify;
     box-sizing: border-box;
+
     font-family: var(--fonteprincipal);
+    box-shadow: 10px 10px 11px #000000;
 }
+
 
 form h1{
     color: white;
