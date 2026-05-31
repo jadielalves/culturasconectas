@@ -12,6 +12,7 @@
     --corprincipal: #0B1016;
     --corsub: #1A1F25;
 
+    --fontetitulo: 'League+Spartan';
     --fonteprincipal: 'Poppins';
 }
 
@@ -33,7 +34,7 @@ form{
 
     padding: 20px 0px 10px 0px;
     margin: auto;  
-    border-radius: 10px;
+    border-radius: 15px;
     min-width: 320px;
     max-width: 500px;
 
@@ -44,14 +45,14 @@ form{
     text-align: justify;
     box-sizing: border-box;
 
-    font-family: var(--fonteprincipal);
+    font-family: 'League+Spartan', Arial, Helvetica, sans-serif;
     box-shadow: 10px 10px 11px #000000;
 }
 
 
 form h1{
     color: white;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: var(--fontetitulo), Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: 500;
 } 
