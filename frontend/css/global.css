@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+#6639C1
+#0B1016
+#1A1F25
+*/ 
+
+
+
+:root{
+    --cortitulos: #6639C1;
+    --corprincipal: #0B1016;
+    --corsub: #1A1F25;
+
+    --fonteprincipal: 'Poppins'
+}
+
+*{  color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    font-family: 'Poppins', cursive;
+}
