@@ -18,13 +18,14 @@
 
 body{
      margin: 10px;
-     padding: 10px 0px 0px 0px;
+     padding: 10px;
      background-image: url('background.jpeg');
+     background-position: 100vh;
     
 }
 
 main{
-    margin: 10px;
+    margin: auto;
     
 }
 
@@ -88,8 +89,8 @@ button{
     border-radius: 7px;
 }
 
-a{
-    color: var(--cordestaque);
+a#cadastro{
+    color: white;
     
 }
 
@@ -98,5 +99,12 @@ p#login{
     margin: 10px 0px 10px 0px;
     text-align: center;
 }
+
+a#login{
+    color: var(--cordestaque);
+    
+}
+
+
 
 
