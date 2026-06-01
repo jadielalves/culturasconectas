@@ -17,27 +17,38 @@
 }
 
 body{
-     margin: 10px;
-     padding: 10px;
-     background-image: url('background.jpeg');
-     background-position: 100vh;
+    padding: 40px 0px;
+     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     
 }
 
 main{
-    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 
 form{
     background-color: var(--corprincipal);
-
-    padding: 20px 0px 10px 0px;
-    margin: auto;  
+    
+    padding: 20px 0px 10px 0px;;
+  
     border-radius: 15px;
-    min-width: 320px;
-    max-width: 500px;
+     width: 80%;
+    max-width: 550px;
 
     color: var(--corprincipal);
 
@@ -49,6 +60,8 @@ form{
     font-family: 'League+Spartan', Arial, Helvetica, sans-serif;
     box-shadow: 10px 10px 11px #000000;
 }
+
+
 
 
 form h1{
