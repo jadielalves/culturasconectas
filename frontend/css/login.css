@@ -115,7 +115,7 @@ button{
 button:hover{
     
     background-color: #7943e4;
-    padding: 22px;
+    scale: 1.02;
     
     transition: 0.5s;
 }
