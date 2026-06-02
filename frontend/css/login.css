@@ -21,14 +21,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.bg{
+    position: fixed;
+    inset: 0;
 
     background-image: url('background.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    
-}
+    filter: blur(3px);
+    transform: scale(1.1);
+
+    z-index: -1; 
+}   
 
 main{
     width: 100%;
@@ -66,7 +75,9 @@ form{
     box-sizing: border-box;
 
     font-family: 'League+Spartan', Arial, Helvetica, sans-serif;
-    box-shadow:  0px 1px 20px #0000009a;;
+    box-shadow:  0px 1px 20px #0000009a;
+
+    box-shadow:  10px 10px 10px #7943e4 inset;
 }
 
 
