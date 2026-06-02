@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    body{
+        padding-top: 20px;
+    }
+}
+
+:root{
+    --cordestaque: #6639C1;
+    --corprincipal: #0B1016;
+    --corsub: #1A1F25;
+
+    --fontetitulo: 'League+Spartan';
+    --fonteprincipal: 'Poppins';
+}
+
+body{
+    padding: 40px 0px;
+     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+form{
+    background-color: var(--corprincipal);
+    
+    padding: 20px 0px 10px 0px;;
+  
+    border-radius: 15px;
+     width: 80%;
+    max-width: 550px;
+
+    color: var(--corprincipal);
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-sizing: border-box;
+
+    font-family: 'League+Spartan', Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 11px #0000009a;
+}
+
+
+
+
+form h1{
+    color: white;
+    font-family: var(--fontetitulo), Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+} 
+
+p#subtitulo{
+    padding: 5px;
+    text-align: center;
+    color: rgb(187, 186, 186);
+}
+
+
+label{
+    color: white;
+    padding: 10px 0px 5px 40px;
+}
+
+input{
+    margin: 2px 40px 5px 40px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--corsub);
+    color: white;
+}
+
+button{
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--cordestaque);
+    border: none;
+    margin: 20px 40px 5px 40px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+a#cadastro{
+    color: white;
+    
+}
+
+p#login{
+    color: white;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+a#login{
+    color: var(--cordestaque);
+    
+}
+
+
+
+
