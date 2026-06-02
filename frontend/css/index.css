@@ -77,8 +77,8 @@ form{
   
     border-radius: 20px;
     border:  #2C2D40;
-    border-style: inset;
-    border-width: 2px;
+    border-style: outset;
+    border-width: 3px;
 
     width: 80%;
     max-width: 550px;
@@ -98,20 +98,20 @@ form{
 form::before{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 0%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-0%, -100%);
     content: "";
 
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 
-    background: #7c4dff;
+    background: #7c4dff7a;
     border-radius: 50%;
     filter: blur(100px);
 
-    opacity: .3;
-    z-index: 1;
+    opacity: .2;
+    z-index: -1;
 
 }
 
@@ -155,8 +155,7 @@ button{
     padding: 20px;
     border-radius: 7px;
 
-    box-shadow: 0 0 10px rgba(157, 123, 248, 0.192), 0 0 20px
-    rgba(124, 77, 255, 0.4), 0 0 40px rgba(124, 77, 255, 0.3);
+    box-shadow: 0 0 25px rgba(156, 123, 248, 0.39);
 }
 
 
