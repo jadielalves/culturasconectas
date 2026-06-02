@@ -76,8 +76,7 @@ form{
     padding: 20px 0px 10px 0px;;
   
     border-radius: 20px;
-    border:  #2C2D40;
-    border-style: outset;
+    border: solid #2C2D40;
     border-width: 3px;
 
     width: 80%;
