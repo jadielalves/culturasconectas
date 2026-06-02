@@ -101,6 +101,14 @@ button{
     border-radius: 7px;
 }
 
+button:hover{
+    
+    background-color: #7943e4;
+    padding: 22px;
+    
+    transition: 0.5s;
+}
+
 a#cadastro{
     color: white;
     
