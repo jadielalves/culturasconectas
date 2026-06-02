@@ -18,8 +18,9 @@
 }
 
 body{
-    padding: 40px 0px;
-     min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -39,10 +40,20 @@ main{
     justify-content: center;
     align-items: center;
     
+    position: relative;
 }
 
+a{
+    text-decoration: none;
+}
 
 form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
     background-color: var(--corprincipal);
     
     padding: 20px 0px 10px 0px;;
@@ -66,14 +77,16 @@ form{
 
 
 form h1{
+    margin: 10px;
     color: white;
     font-family: var(--fontetitulo), Arial, Helvetica, sans-serif;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 } 
 
 p#subtitulo{
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     color: rgb(187, 186, 186);
 }
@@ -93,7 +106,7 @@ input{
 }
 
 button{
-    color: white;
+    
     font-size: 1.1em;
     font-weight: bold;
     background-color: var(--cordestaque);
@@ -103,18 +116,28 @@ button{
     border-radius: 7px;
 }
 
-a#cadastro{
-    color: white;
-    
+p#esqueceu{
+    text-align: right;
+    padding-right: 40px;
 }
 
-p#login{
+a#esqueceu{
+    text-decoration: none;
+    color: var(--cordestaque);
+}
+
+#entrar{  
+    color: white;
+}
+    
+
+p#cadastro{
     color: white;
     margin: 10px 0px 10px 0px;
     text-align: center;
 }
 
-a#login{
+a#cadastro{
     color: var(--cordestaque);
     
 }

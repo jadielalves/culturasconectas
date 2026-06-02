@@ -37,10 +37,16 @@ main{
     justify-content: center;
     align-items: center;
     
+    position: relative;
 }
 
 
 form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
     background-color: var(--corprincipal);
     
     padding: 20px 0px 10px 0px;;
@@ -61,13 +67,11 @@ form{
 }
 
 
-
-
 form h1{
     color: white;
     font-family: var(--fontetitulo), Arial, Helvetica, sans-serif;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 } 
 
 p#subtitulo{
