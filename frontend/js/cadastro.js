@@ -43,7 +43,12 @@ document
 
             const dados = await resposta.json();
 
-            alert(dados.mensagem);
+            if (resposta.ok) {
+                alert("Cadastro realizado com sucesso!");
+                window.location.href = "../../login.html";
+            } else {
+                alert(dados.mensagem);
+            }
 
         } catch (erro) {
 
