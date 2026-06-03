@@ -69,8 +69,8 @@ form{
     position: absolute;
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
+
     background-color: var(--corprincipal);
     
     padding: 20px 0px 10px 0px;;
@@ -96,10 +96,10 @@ form{
 
 form::before{
     position: absolute;
-    top: 50%;
-    left: 0%;
+    top: -10%;
+    left: -10%;
 
-    transform: translate(-0%, -100%);
+
     content: "";
 
     width: 300px;
@@ -136,6 +136,26 @@ label{
     padding: 10px 0px 5px 40px;
 }
 
+.usuario{
+    position: relative;
+}
+
+.usuario svg{
+    margin-left: 35px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+
+}
+
+.usuario input{
+    min-width: 320px;
+    max-width: 700px;
+    padding: 12px 12px 12px 45px;
+    
+    
+}
 input{
     margin: 2px 40px 5px 40px;
     padding: 10px;
