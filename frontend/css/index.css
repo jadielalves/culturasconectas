@@ -79,7 +79,7 @@ form{
     border: solid #2C2D40;
     border-width: 3px;
 
-    width: 80%;
+    width: 90%;
     max-width: 550px;
 
     color: var(--corprincipal);
@@ -136,12 +136,14 @@ label{
     padding: 10px 0px 5px 40px;
 }
 
-.usuario{
+#usuario{
     position: relative;
+    margin: 2px 40px 5px 40px;
 }
 
-.usuario svg{
-    margin-left: 35px;
+#usuario svg{
+    margin-left: -5px;
+    
     position: absolute;
     top: 50%;
     left: 15px;
@@ -149,13 +151,37 @@ label{
 
 }
 
-.usuario input{
-    min-width: 320px;
-    max-width: 700px;
-    padding: 12px 12px 12px 45px;
-    
+#usuario input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 40px;
+    margin: 0;
     
 }
+
+#email{
+    position: relative;
+    margin: 2px 40px 5px 40px;
+}
+
+#email svg{
+    margin-left: -5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+
+}
+
+#email input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 40px;
+    margin: 0;
+    
+}
+
 input{
     margin: 2px 40px 5px 40px;
     padding: 10px;
