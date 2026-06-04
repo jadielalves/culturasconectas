@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-body h1{
-    
-    color: black;
-    font-family: 'Poppins';
+#barra{
+    display: flex;
+    align-items: start;
+    justify-content: start;
 }
