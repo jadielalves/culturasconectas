@@ -136,12 +136,12 @@ label{
     padding: 10px 0px 5px 40px;
 }
 
-#usuario{
+.usuario{
     position: relative;
     margin: 2px 40px 5px 40px;
 }
 
-#usuario svg{
+.usuario svg{
     margin-left: -5px;
     
     position: absolute;
@@ -151,7 +151,7 @@ label{
 
 }
 
-#usuario input{
+.usuario input{
     width: 100%;
     box-sizing: border-box;
     padding: 12px 12px 12px 40px;
@@ -159,12 +159,12 @@ label{
     
 }
 
-#email{
+.email{
     position: relative;
     margin: 2px 40px 5px 40px;
 }
 
-#email svg{
+.email svg{
     margin-left: -5px;
     
     position: absolute;
@@ -172,9 +172,34 @@ label{
     left: 15px;
     transform: translateY(-50%);
 
+    z-index: 1;
 }
 
-#email input{
+.email input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 40px;
+    margin: 0;
+    
+}
+
+.senha{
+    position: relative;
+    margin: 2px 40px 5px 40px;
+}
+
+.senha svg{
+    margin-left: -5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+
+    z-index: 1;
+}
+
+.senha input{
     width: 100%;
     box-sizing: border-box;
     padding: 12px 12px 12px 40px;
