@@ -76,7 +76,7 @@ form{
     padding: 20px 0px 10px 0px;;
   
     border-radius: 20px;
-    border: solid #2C2D40;
+    border: solid #2c2d4070;
     border-width: 3px;
 
     width: 90%;
@@ -144,102 +144,31 @@ label{
     margin: 2px 40px 5px 40px;
 }
 
-.usuario svg{
-    margin-left: -5px;
-    
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-
-}
-
-.usuario input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px 12px 12px 40px;
-    margin: 0;
-    
-}
-
-
-.email svg{
-    margin-left: -5px;
-    
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-
-    z-index: 1;
-}
-
-.email input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px 12px 12px 40px;
-    margin: 0;
-    
-}
-
-
-.senha svg{
-    margin-left: -5px;
-    
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-
-    z-index: 1;
-}
-
-.senha input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px 12px 12px 40px;
-    margin: 0;
-    
-}
-
-
-
-.confirmarsenha svg{
-    margin-left: -5px;
-    
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-
-    z-index: 1;
-}
-
-.confirmarsenha input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px 12px 12px 40px;
-    margin: 0;
-}
-
 input{
-    margin: 2px 40px 5px 40px;
-    padding: 15px;
-    border-radius: 8px;
     background-color: var(--corsub);
     color: white;
 
-     width: 100%;
+    border-radius: 8px;
+    border: none;
+
+    width: 100%;
     box-sizing: border-box;
     padding: 12px 12px 12px 40px;
     margin: 0;
+    
 }
 
+svg{
+    margin-left: -5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
 
-.senha,
-.confirmarsenha {
-    position: relative;
+    z-index: 1;
 }
+
 
 #mostrarsenha,
 #mostrarsenha2 {
