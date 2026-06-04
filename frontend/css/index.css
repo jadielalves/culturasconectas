@@ -167,6 +167,7 @@ svg{
     transform: translateY(-50%);
 
     z-index: 1;
+    opacity: 0.30;
 }
 
 
@@ -184,10 +185,6 @@ svg{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-svg{
-    opacity: .30;
 }
 
 button#entrar{

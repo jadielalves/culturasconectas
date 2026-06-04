@@ -53,18 +53,20 @@ a{
 }
 
 form{
-    position: absolute;
+   position: absolute;
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
 
     background-color: var(--corprincipal);
     
-    padding: 20px 0px 25px 0px;;
+    padding: 20px 0px 10px 0px;;
   
-    border-radius: 15px;
-     width: 80%;
+    border-radius: 20px;
+    border: solid #2c2d4070;
+    border-width: 3px;
+
+    width: 90%;
     max-width: 550px;
 
     color: var(--corprincipal);
@@ -75,12 +77,28 @@ form{
     box-sizing: border-box;
 
     font-family: 'League+Spartan', Arial, Helvetica, sans-serif;
-    box-shadow:  0px 1px 20px #0000009a;
-
-    box-shadow:  10px 10px 10px #7943e4 inset;
+    
 }
 
+form::before{
+    position: absolute;
+    top: -10%;
+    left: -10%;
 
+
+    content: "";
+
+    width: 300px;
+    height: 300px;
+
+    background: #7c4dff7a;
+    border-radius: 50%;
+    filter: blur(100px);
+
+    opacity: .2;
+    z-index: -1;
+
+}
 
 
 form h1{
@@ -89,6 +107,8 @@ form h1{
     font-family: var(--fontetitulo), Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: 700;
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.247), 0 0 20px rgba(255, 255, 255, 0.164);
 } 
 
 p#subtitulo{
@@ -104,15 +124,55 @@ label{
     padding: 10px 0px 5px 40px;
 }
 
-input{
+.email,
+.senha{
+    position: relative;
     margin: 2px 40px 5px 40px;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: var(--corsub);
-    color: white;
 }
 
-button{
+input{
+   background-color: var(--corsub);
+    color: white;
+
+    border-radius: 8px;
+    border: none;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 40px;
+    margin: 0;
+    
+}
+
+svg{
+    color: white;
+    margin-left: -5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+
+    z-index: 1;
+    opacity: .30;
+}
+
+#mostrarsenha{
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    transform: translateY(-50%);
+    
+    border: none;
+    background: none;
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#entrar{
     
     font-size: 1.1em;
     font-weight: bold;
