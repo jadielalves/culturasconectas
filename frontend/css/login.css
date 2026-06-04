@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-@media (max-width: 768px) {
-    .form{
-        width: 90%;
-        height: 100vh;
-        margin: auto;
-    }
-}
-
-
 
 :root{
     --cordestaque: #6639C1;
@@ -22,7 +13,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    min-height: 100vh;
+    min-height: 100dvh;
 
     display: flex;
     justify-content: center;
