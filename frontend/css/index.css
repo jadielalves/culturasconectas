@@ -255,7 +255,7 @@ input{
 }
 
 #mostrarsenha2{
-    margin-top: 1px;
+    margin-top: 87px;
     margin-right: 35px;
 
     position: absolute;
@@ -266,7 +266,7 @@ input{
     border: none;
     background: none;
 
-    z-index: 2;
+    z-index: 1;
 
 }
 
