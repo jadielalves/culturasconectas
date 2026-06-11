@@ -14,10 +14,14 @@ body{
     background-color: var(--corprincipal);
 }
 
-#barra{
+#menu{
     display: flex;
-    align-items: start;
-    justify-content: left;
+    justify-content: space-evenly;
+    
+}
+
+#barra{
+    
 }
 
 #cc{
