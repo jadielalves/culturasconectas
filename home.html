@@ -13,19 +13,22 @@
 <body>
 
     <div id="barra">
-        <h3>CulturaConecta</h3>
-        <nav>
+        <h3 id="cc">CulturaConecta</h3>
+        <nav id="navegaçao">
             <a href="#">Início</a>
             <a href="">Filmes</a>
             <a href="">Séries</a>
             <a href="">Livros</a>
             <a href="">Jogos</a>
         </nav>
-        <form role="search">
-            <input type="search"
-            placeholder="pesquisa">
-        
-        </form>
+        <div id="pesquisar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+            <form role="search">
+                <input type="search" id="barrinha"
+                placeholder="Pesquisar">
+            
+            </form>
+        </div>
     </div>
 </body>
 </html>
