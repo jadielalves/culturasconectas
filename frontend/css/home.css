@@ -48,6 +48,8 @@ body{
 }
 
 #titulo{
+    margin-top: 25px;
+
     font-size: 2em;
     line-height: 30px;
 }
@@ -58,23 +60,31 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-p{
+#subtitulo{
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     opacity: 0.50;
 }
 
 #explorar{
-    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+
     background-color: var(--cortitulos);
 
     padding: 15px;
     border-radius: 10px;
+    width: 150px;
+}
 
-    
+#fundo{
+    perspective: 500px;
 }
 
 #banner{
+    
+    transform: rotateY(-30deg);
+    
     display: flex;
     justify-content: right;
     width: 650px;
