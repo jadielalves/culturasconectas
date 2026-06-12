@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const conexao = require("./database/conexao");
 const bcrypt = require("bcrypt");
