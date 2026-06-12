@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --cortitulos: #6639C1;
     --corprincipal: #0B1016;
@@ -32,11 +36,34 @@ img{
 }
 
 .card{
+    overflow: hidden;
+    position: relative;
     
-    background-color: white;
+    margin-left: 10px;
 
-    width: 180px;
-    height: 150px;
+    background-color: var(--corsub);
 
-    border-radius: 10px;
+    width: 150px;
+    height: 160px;
+
+    border-radius: 15px;
+}
+
+.descrição{
+    font-size: 1.1em;
+    color: white;
+    background-color: var(--corsub);
+
+    width: 150px;
+    height: 50px;
+    
+    text-align: left;
+    margin-left: 10px;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    transform: translate(-50%, -100%);
+    
 }

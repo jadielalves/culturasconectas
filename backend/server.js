@@ -29,6 +29,7 @@ app.get("/usuarios", (req, res) => {
             res.json(resultados);
         }
     );
+
 });
 
 app.post("/usuarios", async (req, res) => {
@@ -56,6 +57,7 @@ app.post("/usuarios", async (req, res) => {
                 res.json({
                     mensagem: "Usuário cadastrado!"
                 });
+
             }
         );
 
@@ -67,31 +69,12 @@ app.post("/usuarios", async (req, res) => {
 
     }
 
-app.get("/filmes/populares", async (req, res) => {
-
-    try {
-
-        const resposta = await fetch(
-            `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.TMDB_API_KEY}&language=pt-BR&page=1`
-        );
-
-        const dados = await resposta.json();
-
-        res.json(dados);
-
-    } catch (erro) {
-
-        res.status(500).json({
-            erro: erro.message
-        });
-
-    }
-
 });
 
+app.get("/", (req, res) => {
+    res.send("TESTE 123456");
 });
 
 app.listen(3000, () => {
     console.log("Servidor iniciado");
 });
-
