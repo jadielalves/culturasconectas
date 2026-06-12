@@ -47,11 +47,33 @@ body{
     margin-left: 30px;
 }
 
+#titulo{
+    font-size: 2em;
+    line-height: 30px;
+}
+
+#rainbow{
+    background: linear-gradient(90deg, #6639C1, #b639c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    margin-top: 15px;
+    opacity: 0.50;
+}
+
+#explorar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 #banner{
     display: flex;
     justify-content: right;
-    width: 600px;
-    height: 300px;
+    width: 650px;
+    height: 350px;
     margin-left: 300px;
 }
 
