@@ -17,7 +17,7 @@ html{
     padding: 0px;
 }
 
-a{
+a{  
     text-decoration: none;
     color: white;
 }
@@ -60,13 +60,18 @@ body{
 
 p{
     margin-top: 15px;
+    margin-bottom: 30px;
     opacity: 0.50;
 }
 
 #explorar{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    margin-top: 20px;
+    background-color: var(--cortitulos);
+
+    padding: 15px;
+    border-radius: 10px;
+
+    
 }
 
 #banner{
