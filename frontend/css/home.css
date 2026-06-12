@@ -36,5 +36,7 @@ img{
     background-color: white;
 
     width: 180px;
-    height: 270px;
+    height: 150px;
+
+    border-radius: 10px;
 }
