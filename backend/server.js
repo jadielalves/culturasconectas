@@ -67,6 +67,28 @@ app.post("/usuarios", async (req, res) => {
 
     }
 
+app.get("/filmes/populares", async (req, res) => {
+
+    try {
+
+        const resposta = await fetch(
+            `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.TMDB_API_KEY}&language=pt-BR&page=1`
+        );
+
+        const dados = await resposta.json();
+
+        res.json(dados);
+
+    } catch (erro) {
+
+        res.status(500).json({
+            erro: erro.message
+        });
+
+    }
+
+});
+
 });
 
 app.listen(3000, () => {
