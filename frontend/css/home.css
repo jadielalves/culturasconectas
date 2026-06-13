@@ -78,18 +78,36 @@ body{
 }
 
 #fundo{
-    perspective: 500px;
+    position: relative;
+    perspective: 700px;
+ 
 }
-
 #banner{
     
-    transform: rotateY(-30deg);
+    transform: rotateY(-25deg);
     
     display: flex;
     justify-content: right;
+
     width: 650px;
     height: 350px;
     margin-left: 300px;
+
+    box-shadow: 5px 5px 7px black;
+}
+
+#sombra{
+    transform: rotateY(-25deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    opacity: 0.50;
+    width: 650px;
+    height: 350px;
 }
 
 .card{
