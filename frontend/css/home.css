@@ -193,7 +193,13 @@ nav a:hover {
     transition: 0.5s;
 }
 
+#box-categorias{
+    margin: 30px;
+}
 
+#categorias{
+    margin-bottom: 10px;
+}
 
 .card{
     overflow: hidden;
