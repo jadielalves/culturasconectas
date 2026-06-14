@@ -134,8 +134,10 @@ nav a:hover {
     align-items: left;
 
     
-    background: radia(black) url('freefire.jpeg') center center/cover no-repeat scroll;
-    
+    background: radial-gradient(circle, transparent 40%, black), url('freefire.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 
     width: 100%;
@@ -168,6 +170,17 @@ nav a:hover {
 
     font-size: 2em;
     line-height: 30px;
+    
+}
+
+#titulo::before{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    contain: "";
+
+    filter: blur(10px);
 }
 
 #rainbow{
@@ -199,6 +212,13 @@ nav a:hover {
     scale: 1.1;
 
     transition: 0.5s;
+}
+
+#blur::before{
+    background: var(--corprincipal);
+    z-index: 1;
+    width: 300px;
+    height: 200px;
 }
 
 #fundo::before{
