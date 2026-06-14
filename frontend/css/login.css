@@ -191,14 +191,14 @@ button:hover{
     transition: 0.5s;
 }
 
-p#esqueceu{
+#suporte{
     text-align: right;
     padding-right: 40px;
 
     text-shadow: 0px 0px 10px #000000c9;
 }
 
-a#esqueceu{
+#esqueceu{
     text-decoration: none;
     color: var(--cordestaque);
 

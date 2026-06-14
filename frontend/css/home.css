@@ -44,7 +44,7 @@ header{
     margin-right: 20px;
 }
 
-svg{
+#globo{
     margin-right: 5px;
     margin-top: -1px;
     margin-bottom: 5px;
@@ -69,6 +69,7 @@ nav a{
     height: 30px;
 
     background-color: var(--corsub);
+    color: rgba(255, 255, 255, 0.705);
     border: none;
 }
 
