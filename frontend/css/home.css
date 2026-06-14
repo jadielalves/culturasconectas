@@ -35,6 +35,10 @@ header{
     margin: 0px;
 }
 
+svg{
+    display: flex;
+}
+
 nav{
     display: flex;
     align-items: normal;
