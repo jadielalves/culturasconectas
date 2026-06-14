@@ -221,22 +221,7 @@ nav a:hover {
     height: 200px;
 }
 
-#fundo::before{
-    content: "";
-    position: absolute;
-    transform: rotateY(-20deg);
 
-    perspective: 700px;
-    filter: blur(20px);
-    
-    background: rgba(0, 0, 0, 0.226);
-    z-index: 1;
-    margin-top: 40px;
-    width: 650px;
-    height: 350px;
-    margin-left: 300px;
-    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.699);
-}
 
 .card{
     overflow: hidden;
