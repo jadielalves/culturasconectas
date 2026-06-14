@@ -32,7 +32,7 @@ body{
 
 header{
     position: relative;
-    margin: 0px;
+    
 }
 
 #logo{
@@ -44,11 +44,13 @@ header{
 
 svg{
     margin-right: 5px;
+    margin-top: -1px;
+    margin-bottom: 5px;
 }
 
 nav{
     display: flex;
-    align-items: normal;
+    align-items: center;
     justify-content: left;
 
 }
