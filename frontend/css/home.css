@@ -32,6 +32,7 @@ body{
 
 header{
     position: relative;
+    margin: 10px;
     
 }
 
@@ -40,6 +41,7 @@ header{
     padding: 10px 20px 10px 10px;
     margin-top: 5px;
     margin-left: 10px;
+    margin-right: 20px;
 }
 
 svg{
@@ -56,18 +58,24 @@ nav{
 }
 
 nav a{
-    padding-right: 10px;
+    padding-right: 25px;
+    font-size: 15px;
 }
 
 #pesquisar{
-    padding: 10px;
-    width: 200px;
+    margin-left: 50px;
+
+    width: 300px;
     height: 30px;
+
+    background-color: var(--corsub);
+    border: none;
 }
 
 #linha{
     width: 100%;
     
+    margin-top: 5px;
     background: red;
     height: 1px;
 }
