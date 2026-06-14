@@ -134,30 +134,18 @@ nav a:hover {
     align-items: left;
 
     
-    background: radial-gradient(circle, transparent 40%, black), url('freefire.jpeg');
+    background: linear-gradient( to right, black, transparent), 
+    url('freefire.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     
 
     width: 100%;
     height: 500px;
     
     
-}
-
-#hero::before{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-
-
-    width: 500px;
-    height: 100px;
-    contain: "";
-    background: black;
-    z-index: -1;
-
 }
 
 #texto{
@@ -173,26 +161,17 @@ nav a:hover {
     
 }
 
-#titulo::before{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-
-    contain: "";
-
-    filter: blur(10px);
-}
-
 #rainbow{
     background: linear-gradient(90deg, #6639C1, #b639c1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    text-shadow: 0px 0px 10px #7943e47a;
 }
 
 #subtitulo{
     margin-top: 15px;
     margin-bottom: 20px;
-    
 }
 
 #explorar{
@@ -200,7 +179,7 @@ nav a:hover {
     font-weight: 700;
 
     background-color: var(--cortitulos);
-
+    box-shadow: 0px 0px 10px #7943e47a;
     padding: 15px;
     border-radius: 10px;
     width: 200px;
@@ -212,13 +191,6 @@ nav a:hover {
     scale: 1.1;
 
     transition: 0.5s;
-}
-
-#blur::before{
-    background: var(--corprincipal);
-    z-index: 1;
-    width: 300px;
-    height: 200px;
 }
 
 
