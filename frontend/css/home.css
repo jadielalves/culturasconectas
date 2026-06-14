@@ -23,8 +23,7 @@ a{
 }
 
 body{
-    font-family: Arial, He
-    lvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 
     background-color: var(--corprincipal);
@@ -62,15 +61,34 @@ nav a{
     font-size: 15px;
 }
 
+#barrinha{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 #pesquisar{
+    
     margin-left: 50px;
 
+    padding-left: 30px;
     width: 300px;
     height: 30px;
 
     background-color: var(--corsub);
     color: rgba(255, 255, 255, 0.705);
     border: none;
+}
+
+#procure{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+
+    transform: translate(-1%, -50%);
+
+    padding-bottom: 5px;
+    z-index: 1;
 }
 
 #linha{
@@ -80,7 +98,6 @@ nav a{
     background: red;
     height: 1px;
 }
-
 
 
 #hero{

@@ -3,6 +3,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const formulario =
         document.getElementById("formLogin");
 
+    const campoSenha =
+        document.getElementById("senha");
+
+    const botaoMostrarSenha =
+        document.getElementById("mostrarsenha");
+
+    botaoMostrarSenha.addEventListener("click", () => {
+
+        if (campoSenha.type === "password") {
+
+            campoSenha.type = "text";
+
+        } else {
+
+            campoSenha.type = "password";
+
+        }
+
+    });
+
     formulario.addEventListener(
         "submit",
         async (e) => {
