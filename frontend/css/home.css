@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-@media (max-width: 768px){
-    a{
-        text-decoration: underline;
-    }
-}
 
 html{
     scroll-behavior: smooth;
@@ -28,13 +23,6 @@ a{
     color: white;
 }
 
-svg{
-    width: 18px;
-    height: 18px;
-
-    z-index: 1;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -46,6 +34,7 @@ header{
     position: relative;
     margin: 10px;
     
+    width: 100vw;
 }
 
 #logo{
@@ -124,8 +113,23 @@ nav a:hover {
 
 }
 
+#box-user{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+
+    transform: translate(-100%, -50%);
+}
+
+#user{
+
+    width: 24px;
+    height: 24px;
+}
+
+
 #linha{
-    width: 100%;
+    
     
     margin-top: 5px;
     background: rgba(110, 110, 110, 0.322);
@@ -150,8 +154,7 @@ nav a:hover {
     
 
     width: 100%;
-    height: 500px;
-     
+    height: 500px;  
 }
 
 #texto{
@@ -217,11 +220,18 @@ nav a:hover {
 
 
     padding: 7px 35px;
-    margin-right: 20px;
+    margin-right: 7px;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+.icones{
+    width: 18px;
+    height: 18px;
 }
 
-.icones{
-    margin: 30px;
+.clicks{
+    margin-left: 7px;
 }
 
 #categorias{
