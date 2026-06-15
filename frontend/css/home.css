@@ -31,6 +31,8 @@ a{
 svg{
     width: 18px;
     height: 18px;
+
+    z-index: 1;
 }
 
 body{
@@ -199,9 +201,27 @@ nav a:hover {
 
 #box-categorias{
     display: flex;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
 
     margin-top: 10px;
     margin-left: 30px;
+
+}
+
+.opçoes{
+    display: flex;
+    background-color: var(--corsub);
+    border-radius: 10px;
+
+
+    padding: 7px 35px;
+    margin-right: 20px;
+}
+
+.icones{
+    margin: 30px;
 }
 
 #categorias{
