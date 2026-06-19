@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
+@media (max-width: 768px){
+  header{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  #titulo1{
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+  #globo{
+    margin-bottom: -10px;
+    margin-left: 55px;
+
+    padding-top: 5px;
+  }
+
+  #box-pesquisa{
+    width:24px;
+    height: 24px;
+    display: flex;
+
+    margin-left: auto;
+    margin-top: 0px;
+     
+  }
+
+  #pesquisar{
+    display: none;
+  }
+
+ 
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+
+  #links{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0px;
+  }
+  
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +93,6 @@ header {
   margin: 10px;
   margin-left: 0px;
 
-  width: 100vw;
 }
 
 #logo {
@@ -62,12 +119,12 @@ nav {
   width: 100%;
 }
 
-nav a {
+.pag{
   margin-right: 30px;
   font-size: 15px;
 }
 
-nav a:hover {
+.pag:hover {
   background-color: var(--corsub);
   border-radius: 20px;
 
@@ -90,7 +147,7 @@ nav a:hover {
 
   padding-left: 30px;
   padding-top: 2px;
-  width: 300px;
+  max-width: 600px;
   height: 30px;
 
   background-color: var(--corsub);
@@ -225,9 +282,14 @@ nav a:hover {
   margin-top: 3px;
 }
 
-#categorias {
+#categorias, #emalta, #recomendados {
   margin-top: 20px;
   margin-left: 30px;
+}
+
+#box-emalta, #box-recomendados{
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .card {
