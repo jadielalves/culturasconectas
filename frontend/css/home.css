@@ -114,15 +114,16 @@ nav a:hover {
 }
 
 #box-user{
-    position: absolute;
-    top: 50%;
-    left: 100%;
 
-    transform: translate(-100%, -50%);
+    display: flex;
+    justify-content: right;
+
 }
 
 #user{
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 24px;
     height: 24px;
 }
