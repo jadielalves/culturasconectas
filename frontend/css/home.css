@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media (max-width: 768px){
+
+  body{
+    width: 100dvw;
+  }
+
   header{
     width: 100dvw;
     display: flex;
@@ -59,13 +64,31 @@
 
   #links{
     display: flex;
-    flex-direction: column;
+    
     align-items: start;
     margin: 0px;
     margin-left: 0px;
     padding-left: 0px;
   }
   
+.pag{
+  margin-left: 45px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+  .pag:hover {
+  background-color: var(--corsub);
+  border-radius: 20px;
+  margin-top: 5px;
+  
+
+  color: var(--cortitulos);
+  
+
+  transition: all 0.5s ease;
+}
+
 }
 
 html {
