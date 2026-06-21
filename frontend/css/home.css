@@ -64,17 +64,29 @@
 
   #links{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     
-    align-items: start;
     margin: 0px;
     margin-left: 0px;
     padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
   }
   
 .pag{
-  margin-left: 45px;
-  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  margiin
+  
+  
+
+  border: 1px solid rgba(255, 255, 255, 0.541);
+  border-radius: 20px;
+
   padding: 10px;
+  
 }
 
   .pag:hover {
