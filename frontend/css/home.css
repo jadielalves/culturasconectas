@@ -22,20 +22,19 @@
   }
 
   #logo{
-  
-    
-    display: flex;
+    border: 2px solid red;
    
   }
 
   
 
   #box-pesquisa{
+    border: 2px solid blue;
     width:24px;
     height: 24px;
   
 
-    margin-left: 25px;
+    margin-left: 0px;
     margin-top: 0px;
     
   }
@@ -44,12 +43,29 @@
     display: none;
   }
 
+  svg#lupa{
+    border: 2px solid blue;
+    position: static;
+    left: auto;
+    top: auto;
+    
+    transform: none;
+
+    
+  }
+
  #box-user{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  border: 2px solid green;
   margin-left: 0px;
  }
 
 
   nav{
+     border: 2px solid yellow;
+    display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: start;
@@ -152,7 +168,6 @@ header {
 nav {
   display: flex;
   align-items: center;
-  justify-content: left;
   justify-content: space-between;
   width: 100%;
 }
@@ -172,6 +187,12 @@ nav {
   scale: 1.1;
 
   transition: all 0.5s ease;
+}
+
+#acoes{
+  display: flex;
+  justify-content: right;
+  align-items: end;
 }
 
 #box-pesquisa {
