@@ -5,21 +5,23 @@
     max-width: 600px;
     display: flex;
     flex-direction: column;
-   
+    margin: 0px;
   }
 
   #titulo1{
     text-align: left;
     margin-left: 0px;
     margin-right: 0px;
+   
+  
   }
 
   #logo{
-    margin-left: 0px;
+
     text-align: left;
     display: flex;
     justify-content: left;
-    align-items: start;
+    align-items: normal;
     margin-right: 0px;
   }
 
@@ -36,7 +38,7 @@
     height: 24px;
     display: flex;
 
-    margin-left: auto;
+    margin-left: 0px;
     margin-top: 0px;
      
   }
