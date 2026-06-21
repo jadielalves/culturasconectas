@@ -327,6 +327,10 @@ nav {
 }
 
 #box-emalta, #box-recomendados{
+  
+  display: flex;
+  justify-content: left;
+
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -335,12 +339,12 @@ nav {
   overflow: hidden;
   position: relative;
 
-  margin-left: 10px;
+  margin-left: 30px;
 
   background-color: var(--corsub);
 
-  width: 150px;
-  height: 160px;
+  width: 220px;
+  height: 330px;
 
   border-radius: 15px;
 }
