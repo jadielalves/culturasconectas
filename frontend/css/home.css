@@ -21,15 +21,8 @@
    
   }
 
-  #logo{
-    border: 2px solid red;
-   
-  }
-
-  
-
   #box-pesquisa{
-    border: 2px solid blue;
+  
     width:24px;
     height: 24px;
   
@@ -44,27 +37,29 @@
   }
 
   svg#lupa{
-    border: 2px solid blue;
+   
     position: static;
     left: auto;
     top: auto;
     
     transform: none;
 
-    
   }
 
  #box-user{
   display: flex;
   justify-content: right;
   align-items: end;
-  border: 2px solid green;
+  
   margin-left: 0px;
  }
 
+ div#acoes{
+  gap: 10px;
+ }
 
   nav{
-     border: 2px solid yellow;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -246,6 +241,12 @@ nav {
   justify-content: right;
   width: 24px;
   height: 24px;
+}
+
+#acoes{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 #linha {
